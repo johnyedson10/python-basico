@@ -1,0 +1,89 @@
+### Desafio empréstimo
+
+# código com while
+
+
+"""
+Desafio de Emprestimo calculando
+Usando python com condicionais e variaveis
+"""
+
+# Definição das taxas e capital fixo
+vip1 = 14
+vip2 = 7
+vip3 = 3
+capital = 1000
+
+# Cálculos dos montantes (Capital + Juros)
+resultado1 = (capital * vip1 / 100) + capital
+resultado2 = (capital * vip2 / 100) + capital      
+resultado3 = (capital * vip3 / 100) + capital
+
+print("--- SISTEMA DE EMPRÉSTIMOS ---")
+print("Opções disponíveis: vip1, vip2, vip3 ou 'sair' para encerrar.")
+print("------------------------------")
+
+# O loop vai rodar por tempo indeterminado
+while True:
+    # O input fica DENTRO do while para perguntar a cada rodada
+    opcao = input("\nDigite o tipo de cliente (vip1, vip2, vip3): ").lower().strip()
+    
+    # Condição de saída do loop
+    if opcao == "sair":
+        print("Encerrando o sistema. Até logo!")
+        break  # Sai do loop while imediatamente
+        
+    # Verificação de cada cliente usando condicionais
+    if opcao == "vip1":
+        print("O valor do empréstimo do cliente VIP 1 (Juros de 14%) é: R$", resultado1)
+        
+    elif opcao == "vip2":
+        print("O valor do empréstimo do cliente VIP 2 (Juros de 7%) é: R$", resultado2)
+        
+    elif opcao == "vip3":
+        print("O valor do empréstimo do cliente VIP 3 (Juros de 3%) é: R$", resultado3)
+        
+    else:
+        print("Opção inválida! Por favor, digite vip1, vip2, vip3 ou 'sair'.")
+
+"""
+-------------------------------------------------------------------------------------------
+"""
+### Código feito anteriormente
+
+
+"""
+Desafio de Emprestimo calculando
+Usando python com condicionais e variaveis
+"""
+
+"""
+emprestimo de 1000
+cliente vip1 = juros de 14% ( sem garantias cliente já foi negativado 3 vez em 5 anos )
+cliente vip2 = juros de 7%  ( sem garantias cliente somente atrasa )
+cliente vip3 = juros de 3%  ( com garantia cliente só paga adiantado )
+"""
+
+"""
+j = cit/100
+"""
+
+vip1 = 14
+vip2 = 7
+vip3 = 3
+capital = 1000
+resultado = capital * vip1 / 100 + 1000
+resultado2 = capital * vip2 / 100 + 1000      
+resultado3 = capital * vip3 / 100 + 1000
+
+input("Digite a taxa:")
+
+while     
+if(vip1) == 14 :
+  print("O valor do empréstimo do cliente vip1 é:", resultado)
+
+if(vip2) == 7 :
+  print("O valor do empréstimo do cliente vip2 é:", resultado2)
+ 
+if(vip3) == 3 : 
+  print("O valor do empréstimo do cliente vip3 é:", resultado3)
