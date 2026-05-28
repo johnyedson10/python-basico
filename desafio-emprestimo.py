@@ -18,14 +18,11 @@ vip1 = 14
 vip2 = 7
 vip3 = 3
 capital = 1000
-resultado = capital * vip1 / 100 + 1000
+resultado  = capital * vip1 / 100 + 1000
 resultado2 = capital * vip2 / 100 + 1000      
 resultado3 = capital * vip3 / 100 + 1000
 
-
-
 input("Digite a taxa:")
-
 
 if(vip1) == 14 :
   print("O valor do empréstimo do cliente vip1 é:", resultado)
